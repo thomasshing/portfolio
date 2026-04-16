@@ -1,21 +1,30 @@
-# Next.js template
+# Portfolio
 
-This is a Next.js template with shadcn/ui.
+A modern portfolio website built with Next.js, TypeScript, and Tailwind CSS.
 
-## Adding components
+## Features
 
-To add components to your app, run the following command:
+- Hero section with gradient text
+- About section with statistics
+- Skills showcase
+- Featured projects gallery
+- Contact section
+- Responsive design
+- Dark mode support
+
+## Tech Stack
+
+- Next.js 16
+- TypeScript
+- Tailwind CSS
+- shadcn/ui components
+- Lucide React icons
+
+## Getting Started
 
 ```bash
-npx shadcn@latest add button
+npm install
+npm run dev
 ```
 
-This will place the ui components in the `components` directory.
-
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button";
-```
+Open [http://localhost:3000](http://localhost:3000) to view the portfolio.
